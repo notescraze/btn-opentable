@@ -1,5 +1,5 @@
 {
-  "name": "btn-opentable",
+  "name": "next13otc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.3.0",
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.33",
+    "@next/font": "13.2.4",
+    "@types/node": "18.15.8",
+    "@types/react": "18.0.29",
     "@types/react-dom": "18.0.11",
-    "next": "13.3.0",
+    "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "typescript": "5.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
