@@ -1,0 +1,115 @@
+<main className="bg-[hsl(200,30%,5%)] min-h-screen w-screen">
+  <main className="max-w-screen-2xl m-auto bg-[hsl(200,30%,10%)]">
+    {/* NavBAR */}
+    <nav className="bg-[hsl(200,30%,15%)] flex justify-between items-center">
+      <a
+        href=""
+        className="font-bold text-[hsl(200,30%,90%)] text-2xl bg-[hsl(200,90%,15%)] rounded ml-5"
+      >
+        Open Table
+      </a>
+      <div>
+        <div className="flex my-1 mx-3">
+          <button
+            className="bg-[hsl(50,30%,30%)] hover:bg-[hsl(50,50%,50%)] border p-2 rounded mr-3"
+          >
+            Sign In
+          </button>
+          <button
+            className="bg-[hsl(250,30%,30%)] hover:bg-[hsl(250,50%,50%)] border p-2 rounded"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </nav>
+    {/* NavBar */} {/* HEADER */}
+    <div
+      className="p-2 bg-gradient-to-r from-[hsl(200,50%,20%)] to-[hsl(200,50%,30%)]"
+    >
+      <div className="text-left py-3 m-auto flex justify-center">
+        <input
+          className="rounded text-lg mr-3 w-74 p-2 w-[450px]"
+          type="text"
+        />
+        <button
+          className="rounded bg-[hsl(0,30%,30%)] hover:bg-[hsl(0,50%,50%)] px-9 py-2 "
+        >
+          Let's go
+        </button>
+      </div>
+    </div>
+    {/* HEADER */} {/* NEW */}
+    <div
+      className="flex mt-1 py-4 m-auto w-3/4 justify-between items-start border border-white p-5 rounded-2xl"
+    >
+      {/* SEARCH SIDE BAR */}
+      <div className="w-1/5">
+        <div className="border-b border-white pb-4">
+          <h1 className="mb-2">Region</h1>
+          <p className="font-light text-reg">Toronto</p>
+          <p className="font-light text-reg">Montreal</p>
+          <p className="font-light text-reg">Kingston</p>
+        </div>
+        <div className="border-b pb-4">
+          <h1 className="mb-2">Cuisine</h1>
+          <p className="font-light text-reg">Mexican</p>
+          <p className="font-light text-reg">Korean</p>
+          <p className="font-light text-reg">Italian</p>
+        </div>
+        <div className="mt-3 pb-4">
+          <h1 className="mb-2">Price</h1>
+          <div className="flex">
+            <button
+              className="border-t border-l border-b w-full text-reg font-light rounded-l p-2 bg-[hsl(100,10%,40%)] hover:bg-[hsl(100,20%,60%)]"
+            >
+              $$$
+            </button>
+            <button
+              className="border-t border-b w-full text-reg font-light p-2 bg-[hsl(200,10%,40%)] hover:bg-[hsl(200,20%,60%)]"
+            >
+              $$$
+            </button>
+            <button
+              className="border-t border-r border-b w-full text-reg font-light rounded-r p-2 bg-[hsl(300,10%,40%)] hover:bg-[hsl(300,20%,60%)]"
+            >
+              $$$
+            </button>
+          </div>
+        </div>
+      </div>
+      {/* SEARCH SIDE BAR */}
+      <div className="mx-6 w-5/6">
+        {/* Restaurant card */}
+        <div className="border-b flex pb-5">
+          <img
+            className="w-44 object-contain"
+            src="/cropped-1366-768-1308387.jpeg"
+            alt=""
+          />
+          <div className="pl-5">
+            <h2 className="text-3xl">Goodddy Restaurant Collective</h2>
+            <div className="flex items-start">
+              <div className="flex mb-2 text-[hsl(50,90%,50%)]">*****</div>
+              <p className="ml-2 text-sm">Exceptional</p>
+            </div>
+            <div className="mb-9">
+              <div className="font-light flex text-reg">
+                <p className="mr-4">$$$</p>
+                <p className="mr-4">Mexican</p>
+                <p className="mr-4">Ottawa</p>
+              </div>
+            </div>
+            <div
+              className="text-white bg-[hsl(100,70%,50%)] rounded-2xl text-center"
+            >
+              <a href="">View More Info</a>
+            </div>
+          </div>
+        </div>
+        {/* Restaurant card */}
+      </div>
+    </div>
+    {/* NEW */}
+  </main>
+</main>

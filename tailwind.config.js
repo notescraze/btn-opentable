@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./app/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "nihyaku-8": "var(--nihyaku8)",
+        "nihyaku-12": "var(--nihyaku12)",
+        "nihyaku-15": "var(--nihyaku15)",
+        "nihyaku-20": "var(--nihyaku20)",
+      },
+    },
     fontSize: {
       "2xsm": "10px",
       xsm: "12px",

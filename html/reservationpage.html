@@ -1,0 +1,94 @@
+<main
+  className="bg-[hsl(200,10%,10%)] min-h-screen w-screen border border-[hsl(180,2%,88%)]"
+>
+  <main className="max-w-screen-2xl m-auto">
+    {/* NavBAR */}
+    <nav className="bg-[hsl(200,30%,15%)] flex justify-between items-center">
+      <a
+        href=""
+        className="font-bold text-[hsl(200,30%,90%)] text-2xl bg-[hsl(200,90%,15%)] rounded ml-5"
+      >
+        Open Table
+      </a>
+      <div>
+        <div className="flex my-1 mx-3">
+          <button
+            className="bg-[hsl(50,30%,30%)] hover:bg-[hsl(50,50%,50%)] border p-2 rounded mr-3"
+          >
+            Sign In
+          </button>
+          <button
+            className="bg-[hsl(250,30%,30%)] hover:bg-[hsl(250,50%,50%)] border p-2 rounded"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </nav>
+    {/* NavBar */}
+    <div className="border-t">
+      <div className="py-9 w-3/5 m-auto">
+        {/* HEADER */}
+        <div>
+          <h3 className="font-bold">You're almost done!</h3>
+          <div className="mt-1 flex">
+            <img
+              src="/cropped-1366-768-1308741.jpg"
+              className="w-32 h-18 object-cover rounded"
+              alt=""
+            />
+            <div className="ml-4">
+              <h1 className="text-3xl font-bold">
+                Ayame Restaurant of Giggles
+              </h1>
+              <div className="flex-mt-3">
+                <p className="mr-6">Teus, 22, 2023</p>
+                <p className="mr-6">7:30 PM</p>
+                <p className="mr-6">3 people</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* HEADER */} {/* Form */}
+        <div className="mt-10 flex flex-wrap justify-between w-[520px]">
+          <input
+            type="text"
+            placeholder="First name"
+            className="border rounded p-3 w-64 mb-4"
+          />
+          <input
+            type="text"
+            placeholder="Last name"
+            className="border rounded p-3 w-64 mb-4"
+          />
+          <input
+            type="text"
+            placeholder="Phone number"
+            className="border rounded p-3 w-64 mb-4"
+          />
+          <input
+            type="text"
+            placeholder="Email"
+            className="border rounded p-3 w-64 mb-4"
+          />
+          <input
+            type="text"
+            placeholder="Occation (optional)"
+            className="border rounded p-3 w-64 mb-4"
+          />
+          <input
+            type="text"
+            placeholder="Request (optional)"
+            className="border rounded p-3 w-64 mb-4"
+          />
+          <button
+            className="bg-red-600 w-full p-3 text-white font-bold rounded disabled:bg-gray-300"
+          >
+            Complete reservation
+          </button>
+        </div>
+        {/* Form */}
+      </div>
+    </div>
+  </main>
+</main>
